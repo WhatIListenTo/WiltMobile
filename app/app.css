@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Pacifico');
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+For example, the following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.btn {
+    font-size: 18;
+}
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+*/
+@import 'nativescript-theme-core/css/core.light.css';
+
+.p-20 {
+  background-color: #1d1d1d;
+  color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+
+.side {
+  font-family: 'Pacifico' !important;
+  position: fixed;
+  margin-left: 0;
+  background-color: #2e2e2e;
+  width: 15%;
+  height: 100% !important;
+  bottom: 0;
+}
